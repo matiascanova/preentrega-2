@@ -2,17 +2,32 @@
   text-decoration: none;
   color: black;
   list-style: none;
+  color: #00ff00;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 a {
   text-decoration: none;
   color: #00ff00;
 }
+/* Index start */
+.index{
+  background-image: url(https://ondosmil.com/fondo/18783.jpg);
+  background-repeat: no-repeat;
 
-.A1 {
-  background-color: lavender;
-  font-size: 20px;
 }
 
-.B1 {
-  background-color: wheat;
+.A1 {
+  background-color: #000;
+}
+
+.A7{
+  background-color: #00ff00;
+  color: #000;
+}
+
+/* Index end */
+
+.C3{
+  color:#00ff00 ;
 }

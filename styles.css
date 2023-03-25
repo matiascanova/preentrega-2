@@ -5,6 +5,7 @@
   color: #00ff00;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -12,8 +13,11 @@ a {
 }
 /* Index start */
 .index{
-  background-image: url(https://ondosmil.com/fondo/18783.jpg);
+  background-image: url(https://fondosmil.com/fondo/18783.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #000;
 
 }
 
@@ -21,13 +25,42 @@ a {
   background-color: #000;
 }
 
-.A7{
+.A2:hover{
+  color: #17b417bd;
+}
+
+.A3{
   background-color: #00ff00;
   color: #000;
 }
 
+.A3:hover{
+  background-color: #17b417bd;
+}
+/* HAY 1 PIXEL FUERA DE LUGAR EN EL BOTON EN LA PARTE SUPERIOR IZQUIERDA, ECONTRAR FORMA DE SOLUCIONAR */
+
 /* Index end */
 
 .C3{
-  color:#00ff00 ;
+  color:#00ff00;
+}
+.C3:hover{
+  color:#17b417bd;
+}
+
+/* Fotter start */
+.D1{
+  bottom: 4%;
+    position: fixed;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.D2{
+  bottom: 0%;
+    position: fixed;
+    display: block;
+    width: 100%;
+    text-align: center;
 }

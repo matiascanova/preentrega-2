@@ -41,6 +41,7 @@ a:hover{
 
 .A3:hover{
   background-color: #17b417bd;
+  color: #000;
 }
 /* HAY 1 PIXEL FUERA DE LUGAR EN EL BOTON EN LA PARTE SUPERIOR IZQUIERDA, ECONTRAR FORMA DE SOLUCIONAR */
 
@@ -59,3 +60,18 @@ a:hover{
   background-color: #000;
 }
 /* Fotter end */
+
+/* suplementos start*/
+.suplementos{
+  background-image: url(https://assets.gqindia.com/photos/5cdc0e49d0e160243a100354/master/pass/weight-workout.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #000;
+}
+.P1{
+  border: solid 2px #00ff00;
+  background-color: #000;
+  padding-left: 3px;
+  padding-right: 3px;
+}

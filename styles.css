@@ -6,10 +6,15 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
   color: #00ff00;
+}
+
+a:hover{
+  color:#17b417bd ;
 }
 /* Index start */
 .index{
@@ -48,19 +53,9 @@ a {
   color:#17b417bd;
 }
 
+
 /* Fotter start */
 .D1{
-  bottom: 4%;
-    position: fixed;
-    display: block;
-    width: 100%;
-    text-align: center;
+  background-color: #000;
 }
-
-.D2{
-  bottom: 0%;
-    position: fixed;
-    display: block;
-    width: 100%;
-    text-align: center;
-}
+/* Fotter end */
